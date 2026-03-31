@@ -99,6 +99,12 @@ Current preserved CULane experiment:
 | Best validation NormDist | `0.02221` |
 | Checkpoint | `outputs/train_runs/paper_split_v1/best_model.pt` |
 
+## Pretrained
+
+Tracked checkpoint included in this repository:
+
+- `pretrained/paper_split_v1_best_model.pt`
+
 Quick smoke test:
 
 ```bash

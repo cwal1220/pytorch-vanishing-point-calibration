@@ -1,0 +1,27 @@
+[project]
+name = "culane-vp-calibration"
+version = "0.1.0"
+description = "Vanishing-point based extrinsic camera calibration experiments on CULane."
+requires-python = ">=3.11"
+dependencies = [
+    "addict>=2.4.0",
+    "gdown>=5.2.0",
+    "imageio>=2.37.3",
+    "imageio-ffmpeg>=0.6.0",
+    "imagesize>=2.0.0",
+    "matplotlib>=3.9.0",
+    "numpy>=2.0.0",
+    "pathspec>=1.0.4",
+    "pillow>=11.0.0",
+    "pyyaml>=6.0.0",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.13.0",
+    "tensorboard>=2.20.0",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+    "tqdm>=4.67.0",
+    "ujson>=5.12.0",
+]
+
+[tool.uv]
+package = false
